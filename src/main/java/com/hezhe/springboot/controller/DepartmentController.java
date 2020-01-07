@@ -30,7 +30,6 @@ public class DepartmentController {
     @ResponseBody
     @GetMapping("/getOneDep/{id}")
     public Department getOneDep(@PathVariable("id") Integer id){
-        Department oneDep = departmentService.getOneDep(id);
-        return oneDep;
+        return departmentService.getOneDep(id);
     }
 }
