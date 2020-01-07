@@ -1,6 +1,7 @@
 package com.hezhe.springboot.mapper;
 
 import com.hezhe.springboot.model.Department;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -12,4 +13,6 @@ import java.util.List;
 @Repository
 public interface DepartmentMapper {
     public List<Department> getAllDepartment();
+
+    public Department getOneDep(@Param("id") Integer id);
 }

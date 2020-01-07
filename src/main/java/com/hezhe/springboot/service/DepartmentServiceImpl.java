@@ -21,4 +21,9 @@ public class DepartmentServiceImpl implements DepartmentService {
     public List<Department> getAllDepartment() {
         return departmentMapper.getAllDepartment();
     }
+
+    @Override
+    public Department getOneDep(Integer id) {
+        return departmentMapper.getOneDep(id);
+    }
 }
