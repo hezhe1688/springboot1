@@ -55,7 +55,7 @@ spring:
     jedis:
       pool:
         max-active: 100
-        max-idle: 10
+        max-idle: 15
 
 #整合mybatis
 mybatis:
