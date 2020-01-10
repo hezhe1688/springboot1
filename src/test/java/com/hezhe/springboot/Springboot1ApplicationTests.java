@@ -26,11 +26,21 @@ class Springboot1ApplicationTests {
 
     @Test
     public void myTest(){
-
-        Employee emp = employeeService.getOneEmp(2);
-        redisUtil.lLeftPush("user", emp.getId()+"");
-        redisUtil.lLeftPush("user", emp.getEmployeeName());
-        redisUtil.lLeftPush("user", emp.getGender());
-
+        Object emp2 = redisUtil.hGetAll("emp");
+        Employee employee = new Employee();
+        /**
+         * Object不可以直接转integer类型，会报错
+         * 解决办法先将Object转String，然后将String转Integer
+         * Integer.parseInt(id.toString())
+         */
+        Object id = redisUtil.hGet("emp", "emp_id");
+        String employeeName = (String) redisUtil.hGet("emp", "name");
+        String gender = (String) redisUtil.hGet("emp", "gender");
+        employee.setId(Integer.parseInt(id.toString()));
+        employee.setEmployeeName(employeeName);
+        employee.setGender(gender);
+        System.out.println("&&&&"+employee);
+        int i = employeeService.insertEmp(employee);
+        System.out.println(i);
     }
 }

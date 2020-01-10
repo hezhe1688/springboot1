@@ -6,14 +6,14 @@
     <settings>
         <!--开启驼峰命名regDate——》reg_date =》_d：D-->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
-        <!--&lt;!&ndash;在Oracle中，不支持插入NULL值，如歌插入就会报错&ndash;&gt;-->
-        <!--<setting name="jdbcTypeForNull" value="NULL"/>-->
-        <!--&lt;!&ndash;在mybatis中开启懒加载&ndash;&gt;-->
-        <!--<setting name="lazyLoadingEnabled" value="true"/>-->
-        <!--&lt;!&ndash;这个是阻止懒加载的，防止冲突，要关掉&ndash;&gt;-->
-        <!--<setting name="aggressiveLazyLoading" value="false"/>-->
-        <!--&lt;!&ndash;开启二级缓存&ndash;&gt;-->
-        <!--<setting name="cacheEnabled" value="true"/>-->
+        <!--在Oracle中，不支持插入NULL值，如歌插入就会报错-->
+        <setting name="jdbcTypeForNull" value="NULL"/>
+        <!--在mybatis中开启懒加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--这个是阻止懒加载的，防止冲突，要关掉-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
     </settings>
     <!--开启分页查询的插件-->
     <!--<plugins>-->

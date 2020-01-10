@@ -14,4 +14,6 @@ public interface EmployeeService {
     public List<EmployeeMapper> getAllEmp();
 
     public Employee getOneEmp(@Param("id") Integer id);
+
+    public int insertEmp(Employee employee);
 }

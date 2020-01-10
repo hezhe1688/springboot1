@@ -1,234 +1,288 @@
-2020-01-08 16:50:11.872  INFO 12166 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12166 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 16:50:11.874  INFO 12166 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 16:50:17.381  INFO 12166 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 16:50:17.646  INFO 12166 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 16:50:18.170  INFO 12166 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 8.449 seconds (JVM running for 12.229)
-2020-01-08 16:50:19.324  INFO 12166 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 16:50:19.326  INFO 12166 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 16:57:39.054  INFO 12403 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12403 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 16:57:39.060  INFO 12403 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 16:57:42.673  INFO 12403 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 16:57:42.690  INFO 12403 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 16:57:42.798  INFO 12403 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 0 Redis repository interfaces.
-2020-01-08 16:57:44.550  INFO 12403 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 16:57:48.577  INFO 12403 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 16:57:48.935  INFO 12403 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 16:57:50.908  INFO 12403 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 14.187 seconds (JVM running for 19.403)
-2020-01-08 16:57:52.752  INFO 12403 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 16:57:52.755  INFO 12403 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 16:57:53.323  INFO 12403 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 16:57:53.328  INFO 12403 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 16:59:04.674  INFO 12441 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12441 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 16:59:04.691  INFO 12441 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 16:59:08.931  INFO 12441 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 16:59:08.956  INFO 12441 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 16:59:09.111  INFO 12441 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 0 Redis repository interfaces.
-2020-01-08 16:59:10.866  INFO 12441 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 16:59:13.566  INFO 12441 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 16:59:13.753  INFO 12441 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 16:59:15.044  INFO 12441 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 12.791 seconds (JVM running for 19.196)
-2020-01-08 16:59:16.432  INFO 12441 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 16:59:16.439  INFO 12441 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 16:59:17.016  INFO 12441 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 16:59:17.018  INFO 12441 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:00:16.947  INFO 12477 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12477 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:00:16.955  INFO 12477 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:00:20.270  INFO 12477 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:00:20.279  INFO 12477 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:00:20.426  INFO 12477 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 0 Redis repository interfaces.
-2020-01-08 17:00:21.986  INFO 12477 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:00:25.764  INFO 12477 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:00:26.180  INFO 12477 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:00:28.486  INFO 12477 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 13.522 seconds (JVM running for 18.582)
-2020-01-08 17:00:30.609  INFO 12477 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:00:30.639  INFO 12477 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:00:31.314  INFO 12477 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:00:31.317  INFO 12477 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:07:13.716  INFO 12667 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12667 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:07:13.731  INFO 12667 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:07:16.474  INFO 12667 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:07:16.481  INFO 12667 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:07:16.594  INFO 12667 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
-2020-01-08 17:07:17.683  INFO 12667 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:07:20.437  INFO 12667 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:07:20.726  INFO 12667 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:07:21.968  INFO 12667 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 10.485 seconds (JVM running for 15.925)
-2020-01-08 17:07:24.093  INFO 12667 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:07:24.640  INFO 12667 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:07:24.645  INFO 12667 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:07:24.654  INFO 12667 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-01-08 17:08:09.000  INFO 12693 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12693 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:08:09.005  INFO 12693 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:08:12.836  INFO 12693 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:08:12.870  INFO 12693 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:08:13.038  INFO 12693 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 0 Redis repository interfaces.
-2020-01-08 17:08:14.617  INFO 12693 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:08:16.727  INFO 12693 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:08:16.889  INFO 12693 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:08:18.088  INFO 12693 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 10.811 seconds (JVM running for 14.74)
-2020-01-08 17:08:19.519  INFO 12693 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:08:20.116  INFO 12693 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:08:20.119  INFO 12693 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:08:20.532  INFO 12693 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:08:20.534  INFO 12693 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:08:20.543  INFO 12693 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-01-08 17:09:15.086  INFO 12722 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12722 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:09:15.089  INFO 12722 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:09:17.525  INFO 12722 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:09:17.532  INFO 12722 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:09:17.610  INFO 12722 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 0 Redis repository interfaces.
-2020-01-08 17:09:19.186  INFO 12722 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:09:22.046  INFO 12722 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:09:22.265  INFO 12722 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:09:23.965  INFO 12722 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 10.978 seconds (JVM running for 17.123)
-2020-01-08 17:09:25.871  INFO 12722 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:09:26.470  INFO 12722 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:09:26.473  INFO 12722 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:09:26.984  INFO 12722 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:09:26.986  INFO 12722 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:09:26.995  INFO 12722 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-01-08 17:20:16.328  INFO 12976 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 12976 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:20:16.331  INFO 12976 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:20:18.572  INFO 12976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:20:18.597  INFO 12976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:20:18.719  INFO 12976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81ms. Found 0 Redis repository interfaces.
-2020-01-08 17:20:19.614  INFO 12976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:20:21.714  INFO 12976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:20:21.897  INFO 12976 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:20:23.884  INFO 12976 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.401 seconds (JVM running for 13.213)
-2020-01-08 17:20:24.578  INFO 12976 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:20:24.580  INFO 12976 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:21:06.242  INFO 13001 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13001 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:21:06.249  INFO 13001 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:21:09.981  INFO 13001 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:21:09.988  INFO 13001 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:21:10.140  INFO 13001 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 0 Redis repository interfaces.
-2020-01-08 17:21:11.485  INFO 13001 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:21:14.474  INFO 13001 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:21:14.672  INFO 13001 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:21:15.925  INFO 13001 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 11.499 seconds (JVM running for 15.063)
-2020-01-08 17:21:16.647  INFO 13001 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:21:16.651  INFO 13001 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:21:48.590  INFO 13020 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13020 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:21:48.592  INFO 13020 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:21:51.218  INFO 13020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:21:51.224  INFO 13020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:21:51.347  INFO 13020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 0 Redis repository interfaces.
-2020-01-08 17:21:52.275  INFO 13020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:21:54.412  INFO 13020 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:21:54.586  INFO 13020 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:21:55.872  INFO 13020 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.092 seconds (JVM running for 14.487)
-2020-01-08 17:21:56.615  INFO 13020 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:21:56.619  INFO 13020 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:23:30.249  INFO 13061 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13061 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:23:30.299  INFO 13061 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:23:33.724  INFO 13061 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:23:33.747  INFO 13061 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:23:33.871  INFO 13061 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 0 Redis repository interfaces.
-2020-01-08 17:23:34.801  INFO 13061 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:23:37.499  INFO 13061 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:23:37.681  INFO 13061 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:23:38.402  INFO 13061 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 10.822 seconds (JVM running for 17.464)
-2020-01-08 17:23:39.119  INFO 13061 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:23:39.146  INFO 13061 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:26:01.541  INFO 13126 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13126 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:26:01.544  INFO 13126 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:26:03.801  INFO 13126 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:26:03.806  INFO 13126 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:26:03.936  INFO 13126 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
-2020-01-08 17:26:05.277  INFO 13126 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:26:08.361  INFO 13126 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:26:08.622  INFO 13126 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:26:09.537  INFO 13126 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.587 seconds (JVM running for 14.138)
-2020-01-08 17:26:10.529  INFO 13126 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:26:10.532  INFO 13126 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:26:10.867  INFO 13126 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:26:10.995  INFO 13126 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:26:36.226  INFO 13146 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13146 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:26:36.230  INFO 13146 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:26:38.480  INFO 13146 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:26:38.490  INFO 13146 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:26:38.606  INFO 13146 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 0 Redis repository interfaces.
-2020-01-08 17:26:39.961  INFO 13146 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:26:42.756  INFO 13146 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:26:42.932  INFO 13146 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:26:43.653  INFO 13146 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 8.978 seconds (JVM running for 12.427)
-2020-01-08 17:26:44.569  INFO 13146 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:26:44.571  INFO 13146 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:26:44.943  INFO 13146 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:26:45.077  INFO 13146 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
-2020-01-08 17:28:28.175  INFO 13191 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13191 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:28:28.178  INFO 13191 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:28:30.501  INFO 13191 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:28:30.519  INFO 13191 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:28:30.639  INFO 13191 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
-2020-01-08 17:28:31.545  INFO 13191 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:28:34.147  INFO 13191 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:28:34.326  INFO 13191 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:28:34.946  INFO 13191 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 8.492 seconds (JVM running for 12.903)
-2020-01-08 17:28:36.362  INFO 13191 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:28:36.898  INFO 13191 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:28:36.903  INFO 13191 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:28:37.196  INFO 13191 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:28:37.327  INFO 13191 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:28:37.334  INFO 13191 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-01-08 17:30:44.638  INFO 13243 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13243 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:30:44.643  INFO 13243 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:30:45.989  INFO 13243 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:30:45.995  INFO 13243 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:30:46.068  INFO 13243 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
-2020-01-08 17:30:46.919  INFO 13243 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:30:49.397  INFO 13243 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:30:49.558  INFO 13243 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:30:50.239  INFO 13243 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 7.317 seconds (JVM running for 11.0)
-2020-01-08 17:30:51.878  INFO 13243 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:30:52.521  INFO 13243 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:30:52.524  INFO 13243 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:30:52.878  INFO 13243 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:30:53.008  INFO 13243 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:30:53.016  INFO 13243 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-01-08 17:33:22.139  INFO 13303 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13303 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:33:22.142  INFO 13303 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:33:24.448  INFO 13303 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:33:24.453  INFO 13303 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:33:24.582  INFO 13303 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 0 Redis repository interfaces.
-2020-01-08 17:33:25.655  INFO 13303 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:33:28.780  INFO 13303 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:33:28.974  INFO 13303 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:33:29.684  INFO 13303 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.109 seconds (JVM running for 13.286)
-2020-01-08 17:33:31.264  INFO 13303 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:33:31.953  INFO 13303 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:33:31.956  INFO 13303 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:33:32.254  INFO 13303 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:33:32.385  INFO 13303 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:33:32.393  INFO 13303 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-01-08 17:34:24.090  INFO 13332 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13332 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:34:24.094  INFO 13332 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:34:26.677  INFO 13332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:34:26.686  INFO 13332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:34:26.825  INFO 13332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 0 Redis repository interfaces.
-2020-01-08 17:34:28.084  INFO 13332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:34:30.704  INFO 13332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:34:30.865  INFO 13332 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:34:31.562  INFO 13332 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.025 seconds (JVM running for 12.614)
-2020-01-08 17:34:33.017  INFO 13332 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:34:33.571  INFO 13332 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:34:33.574  INFO 13332 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:34:33.868  INFO 13332 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:34:33.999  INFO 13332 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:34:34.008  INFO 13332 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2020-01-08 17:36:48.316  INFO 13382 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on MacBook-Air.local with PID 13382 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
-2020-01-08 17:36:48.336  INFO 13382 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
-2020-01-08 17:36:50.579  INFO 13382 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-08 17:36:50.586  INFO 13382 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-01-08 17:36:50.646  INFO 13382 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
-2020-01-08 17:36:51.519  INFO 13382 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-08 17:36:54.023  INFO 13382 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:36:54.176  INFO 13382 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-01-08 17:36:54.792  INFO 13382 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 7.945 seconds (JVM running for 11.499)
-2020-01-08 17:36:56.269  INFO 13382 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2020-01-08 17:36:56.817  INFO 13382 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-01-08 17:36:56.820  INFO 13382 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-01-08 17:36:57.126  INFO 13382 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-08 17:36:57.258  INFO 13382 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2020-01-08 17:36:57.266  INFO 13382 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-01-10 16:57:54.467  INFO 2536 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2536 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 16:57:54.473  INFO 2536 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 16:57:57.385  INFO 2536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 16:57:57.393  INFO 2536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 16:57:57.504  INFO 2536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 Redis repository interfaces.
+2020-01-10 16:57:58.572  INFO 2536 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 16:58:01.707  INFO 2536 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 16:58:01.940  INFO 2536 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 16:58:02.679  INFO 2536 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 10.36 seconds (JVM running for 15.462)
+2020-01-10 16:58:04.992  INFO 2536 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 16:58:05.003  INFO 2536 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 16:58:05.790  INFO 2536 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 16:58:05.946  INFO 2536 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-01-10 17:01:36.072  INFO 2617 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2617 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:01:36.080  INFO 2617 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:01:37.796  INFO 2617 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:01:37.803  INFO 2617 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:01:37.880  INFO 2617 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 0 Redis repository interfaces.
+2020-01-10 17:01:39.048  INFO 2617 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:01:43.223  INFO 2617 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:01:43.458  INFO 2617 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:01:44.318  INFO 2617 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.972 seconds (JVM running for 15.719)
+2020-01-10 17:01:45.658  INFO 2617 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:01:45.663  INFO 2617 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:01:46.153  INFO 2617 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:01:46.295  INFO 2617 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-01-10 17:03:10.945  INFO 2657 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2657 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:03:10.948  INFO 2657 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:03:13.660  INFO 2657 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:03:13.668  INFO 2657 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:03:13.782  INFO 2657 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 0 Redis repository interfaces.
+2020-01-10 17:03:14.879  INFO 2657 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:03:17.926  INFO 2657 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:03:18.143  INFO 2657 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:03:18.868  INFO 2657 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.551 seconds (JVM running for 13.392)
+2020-01-10 17:03:20.152  INFO 2657 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:03:20.155  INFO 2657 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:03:20.621  INFO 2657 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:03:20.760  INFO 2657 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-01-10 17:07:28.590  INFO 2746 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2746 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:07:28.593  INFO 2746 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:07:31.119  INFO 2746 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:07:31.127  INFO 2746 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:07:31.221  INFO 2746 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2020-01-10 17:07:32.191  INFO 2746 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:07:34.906  INFO 2746 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:07:35.057  INFO 2746 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:07:35.793  INFO 2746 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 8.821 seconds (JVM running for 12.905)
+2020-01-10 17:07:37.107  INFO 2746 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:07:37.113  INFO 2746 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:07:37.621  INFO 2746 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:07:37.760  INFO 2746 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-01-10 17:08:50.631  INFO 2781 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2781 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:08:50.634  INFO 2781 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:08:53.111  INFO 2781 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:08:53.119  INFO 2781 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:08:53.193  INFO 2781 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 0 Redis repository interfaces.
+2020-01-10 17:08:54.223  INFO 2781 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:08:56.977  INFO 2781 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:08:57.150  INFO 2781 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:08:57.833  INFO 2781 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 8.805 seconds (JVM running for 12.596)
+2020-01-10 17:08:58.717  INFO 2781 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:08:58.721  INFO 2781 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:08:59.137  INFO 2781 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:08:59.276  INFO 2781 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-01-10 17:09:36.616  INFO 2801 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2801 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:09:36.619  INFO 2801 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:09:39.087  INFO 2801 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:09:39.093  INFO 2801 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:09:39.187  INFO 2801 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2020-01-10 17:09:40.214  INFO 2801 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:09:43.107  INFO 2801 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:09:43.300  INFO 2801 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:09:44.036  INFO 2801 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.107 seconds (JVM running for 12.976)
+2020-01-10 17:09:45.163  INFO 2801 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:09:45.166  INFO 2801 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:09:46.332  INFO 2801 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-10 17:09:46.753  INFO 2801 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:09:46.894  INFO 2801 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-01-10 17:09:46.906  INFO 2801 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-01-10 17:10:53.529  INFO 2834 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2834 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:10:53.535  INFO 2834 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:10:55.968  INFO 2834 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:10:55.978  INFO 2834 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:10:56.109  INFO 2834 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73ms. Found 0 Redis repository interfaces.
+2020-01-10 17:10:57.245  INFO 2834 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:11:00.071  INFO 2834 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:11:00.308  INFO 2834 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:11:01.041  INFO 2834 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 8.987 seconds (JVM running for 12.354)
+2020-01-10 17:11:01.999  INFO 2834 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:11:02.006  INFO 2834 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:11:03.150  INFO 2834 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-10 17:11:03.574  INFO 2834 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:11:03.712  INFO 2834 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-01-10 17:11:03.722  INFO 2834 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-01-10 17:15:40.149  INFO 2955 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 2955 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:15:40.154  INFO 2955 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:15:44.257  INFO 2955 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:15:44.278  INFO 2955 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:15:44.477  INFO 2955 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 0 Redis repository interfaces.
+2020-01-10 17:15:48.707  INFO 2955 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:15:53.381  INFO 2955 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:15:53.674  INFO 2955 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:15:54.540  INFO 2955 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 16.689 seconds (JVM running for 21.716)
+2020-01-10 17:15:56.028  INFO 2955 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:15:56.040  INFO 2955 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:15:57.631  INFO 2955 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-10 17:15:58.133  INFO 2955 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:15:58.272  INFO 2955 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-01-10 17:15:58.288  INFO 2955 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-01-10 17:22:08.745  INFO 3108 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 3108 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:22:08.749  INFO 3108 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:22:11.573  INFO 3108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:22:11.581  INFO 3108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:22:11.681  INFO 3108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
+2020-01-10 17:22:12.799  INFO 3108 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:22:16.239  INFO 3108 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:22:16.471  INFO 3108 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:22:17.253  INFO 3108 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 10.186 seconds (JVM running for 14.269)
+2020-01-10 17:22:18.505  INFO 3108 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:22:18.509  INFO 3108 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:22:18.983  INFO 3108 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:22:19.122  INFO 3108 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-01-10 17:26:20.783  INFO 3212 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 3212 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:26:20.791  INFO 3212 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:26:23.335  INFO 3212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:26:23.344  INFO 3212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:26:23.415  INFO 3212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2020-01-10 17:26:24.530  INFO 3212 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:26:27.946  INFO 3212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:26:28.202  INFO 3212 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:26:28.945  INFO 3212 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 9.702 seconds (JVM running for 13.712)
+2020-01-10 17:26:30.209  INFO 3212 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:26:30.214  INFO 3212 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:26:31.462  INFO 3212 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-10 17:26:31.931  INFO 3212 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:26:32.068  INFO 3212 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-01-10 17:26:32.086  INFO 3212 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-01-10 17:27:14.400  INFO 3235 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 3235 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:27:14.403  INFO 3235 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:27:16.215  INFO 3235 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:27:16.224  INFO 3235 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:27:16.316  INFO 3235 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2020-01-10 17:27:18.266  INFO 3235 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:27:22.730  INFO 3235 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:27:22.956  INFO 3235 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:27:23.811  INFO 3235 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 11.261 seconds (JVM running for 16.004)
+2020-01-10 17:27:25.139  INFO 3235 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:27:25.144  INFO 3235 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:27:26.441  INFO 3235 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-10 17:27:26.869  INFO 3235 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:27:27.061  INFO 3235 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-01-10 17:27:27.083  INFO 3235 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-01-10 17:30:13.544  INFO 3301 --- [main] c.h.s.Springboot1ApplicationTests        : Starting Springboot1ApplicationTests on macbook-air with PID 3301 (started by maishaobingdexiaolaotou in /Users/hezhe/学习资料/Idea程序/springboot1)
+2020-01-10 17:30:13.548  INFO 3301 --- [main] c.h.s.Springboot1ApplicationTests        : No active profile set, falling back to default profiles: default
+2020-01-10 17:30:15.711  INFO 3301 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-10 17:30:15.720  INFO 3301 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-01-10 17:30:15.810  INFO 3301 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2020-01-10 17:30:17.118  INFO 3301 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-10 17:30:22.944  INFO 3301 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:30:23.206  INFO 3301 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-10 17:30:24.020  INFO 3301 --- [main] c.h.s.Springboot1ApplicationTests        : Started Springboot1ApplicationTests in 12.416 seconds (JVM running for 16.95)
+2020-01-10 17:30:25.462  INFO 3301 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-01-10 17:30:25.468  INFO 3301 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-01-10 17:30:27.126  INFO 3301 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-01-10 17:30:27.588 ERROR 3301 --- [main] druid.sql.Statement                      : {conn-10005, pstmt-20000} execute error. insert into employee(id,employee_name,gender) values (?,?,?)
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '10' for key 'PRIMARY'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488) ~[na:na]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_execute(WallFilter.java:627) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167) [druid-1.1.21.jar:1.1.21]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497) [druid-1.1.21.jar:1.1.21]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) [mybatis-3.5.3.jar:3.5.3]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.3.jar:2.0.3]
+	at com.sun.proxy.$Proxy73.insert(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271) [mybatis-spring-2.0.3.jar:2.0.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) [mybatis-3.5.3.jar:3.5.3]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:93) [mybatis-3.5.3.jar:3.5.3]
+	at com.sun.proxy.$Proxy76.insertEmp(Unknown Source) [na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) [spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) [spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at com.sun.proxy.$Proxy77.insertEmp(Unknown Source) [na:na]
+	at com.hezhe.springboot.service.EmployeeServiceImpl.insertEmp(EmployeeServiceImpl.java:33) [classes/:na]
+	at com.hezhe.springboot.Springboot1ApplicationTests.myTest(Springboot1ApplicationTests.java:43) [test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675) [junit-platform-commons-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) [junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125) [junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132) [junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124) [junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74) [junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1378) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.5.2.jar:1.5.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:74) ~[junit5-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:na]
+
+2020-01-10 17:30:27.804  INFO 3301 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-10 17:30:27.977  INFO 3301 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-01-10 17:30:27.999  INFO 3301 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

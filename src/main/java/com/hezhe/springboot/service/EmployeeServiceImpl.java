@@ -26,4 +26,10 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Employee getOneEmp(Integer id) {
         return employeeMapper.getOneEmp(id);
     }
+
+    @Override
+    public int insertEmp(Employee employee) {
+        int i = employeeMapper.insertEmp(employee);
+        return i;
+    }
 }
