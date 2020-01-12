@@ -77,10 +77,6 @@ public class ShiroConfig {
 
         filterMap.put("/**","authc");
         filterMap.put("/logout", "logout");*/
-        Map<String, String> filterMap = new LinkedHashMap<>();
-//        FilterChainDefinitionMapFactory chainDefinitionMapFactory = new FilterChainDefinitionMapFactory();
-//        chainDefinitionMapFactory.getFilterChainDefinitionMap();
-
         //获取所有的权限资源
         List<Permission> permissions = permissionMapper.selectAllPermission();
         //做一个LinkedHashMap,因为这些键值对都是必须有顺序的，所以要用这个map
@@ -95,7 +91,6 @@ public class ShiroConfig {
                 map.put(permission.getUrl(), permission.getPermissionName());
             }
         }
-
         bean.setFilterChainDefinitionMap(map);
         return bean;
     }
