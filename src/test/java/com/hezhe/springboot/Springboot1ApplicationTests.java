@@ -2,6 +2,7 @@ package com.hezhe.springboot;
 
 import com.hezhe.springboot.model.Employee;
 import com.hezhe.springboot.service.EmployeeService;
+import com.hezhe.springboot.service.ScheduledService;
 import com.hezhe.springboot.util.RedisUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,9 +24,12 @@ class Springboot1ApplicationTests {
 
     @Autowired
     RedisUtil redisUtil;
+    @Autowired
+    ScheduledService scheduledService;
+
 
     @Test
-    public void myTest(){
+    public void myTest() {
         Object emp2 = redisUtil.hGetAll("emp");
         Employee employee = new Employee();
         /**
@@ -39,8 +43,14 @@ class Springboot1ApplicationTests {
         employee.setId(Integer.parseInt(id.toString()));
         employee.setEmployeeName(employeeName);
         employee.setGender(gender);
-        System.out.println("&&&&"+employee);
+        System.out.println("&&&&" + employee);
         int i = employeeService.insertEmp(employee);
         System.out.println(i);
     }
+
+    @Test
+    public void test2(){
+
+    }
+
 }

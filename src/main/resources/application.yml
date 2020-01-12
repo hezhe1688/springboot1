@@ -1,6 +1,6 @@
-logging:
-  file:
-    name: springboot.log
+#logging:
+#  file:
+#    name: springboot.log
 
 #配置项目名
 #server:
@@ -61,4 +61,3 @@ spring:
 mybatis:
   config-location: classpath:mybatis/mybatisConfig.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
-
