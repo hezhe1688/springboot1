@@ -31,37 +31,12 @@ public class UserRealm extends AuthorizingRealm {
     @Autowired
     private PermissionMapper permissionMapper;
 
-
     /**
      * 用户授权
      **/
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(
             PrincipalCollection principalCollection) {
-
-        System.out.println("===执行授权===");
-//
-//        Subject subject = SecurityUtils.getSubject();
-//        User user = (User) subject.getPrincipal();
-//        if(user != null){
-//            SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-//            // 角色与权限字符串集合
-//            Collection<String> rolesCollection = new HashSet<>();
-//            Collection<String> permissionCollection = new HashSet<>();
-//            // 读取并赋值用户角色与权限
-//            Set<Role> roles = user.getRole();
-//            for(RoleBean role : roles){
-//                rolesCollection.add(role.getName());
-//                Set<PermissionBean> permissions = role.getPermissions();
-//                for (PermissionBean permission : permissions){
-//                    permissionCollection.add(permission.getUrl());
-//                }
-//                info.addStringPermissions(permissionCollection);
-//            }
-//            info.addRoles(rolesCollection);
-//            return info;
-//        }
-//        return null;
         //1 通过反射，拿到内信息类
         User user = principalCollection.oneByType(User.class);
         //2 通过userID获取到该用户所有的角色ID
@@ -94,21 +69,6 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(
             AuthenticationToken token1) throws AuthenticationException {
-
-        System.out.println("===执行认证===");
-
-//        UsernamePasswordToken token = (UsernamePasswordToken)authenticationToken;
-//        UserBean bean = userService.findByName(token.getUsername());
-//
-//        if(bean == null){
-//            throw new UnknownAccountException();
-//        }
-//
-//        ByteSource credentialsSalt = ByteSource.Util.bytes(bean.getName());
-//
-//        return new SimpleAuthenticationInfo(bean, bean.getPassword(),
-//                credentialsSalt, getName());
-
         //token1（用户输入的用户名和密码）把这个进行强转
         UsernamePasswordToken token = (UsernamePasswordToken) token1;
         //获取到token里面的用户名
@@ -138,7 +98,7 @@ public class UserRealm extends AuthorizingRealm {
     }
 
     // 模拟Shiro用户加密，假设用户密码为123456
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // 用户名
         String username = "hezhe";
         // 用户密码

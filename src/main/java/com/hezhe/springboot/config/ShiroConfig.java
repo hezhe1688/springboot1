@@ -25,6 +25,10 @@ public class ShiroConfig {
     @Autowired
     private PermissionMapper permissionMapper;
 
+    /**
+     * 加密
+     * @return
+     */
     @Bean("hashedCredentialsMatcher")
     public HashedCredentialsMatcher hashedCredentialsMatcher() {
         HashedCredentialsMatcher credentialsMatcher =
@@ -67,16 +71,8 @@ public class ShiroConfig {
          * user：使用rememberMe可访问
          * perms：对应权限可访问
          * role：对应角色权限可访问
-         **//*
-        Map<String, String> filterMap = new LinkedHashMap<>();
-        filterMap.put("/login","anon");
-        filterMap.put("/user/index","authc");
-        filterMap.put("/vip/index","roles[vip]");
-        filterMap.put("/druid/**", "anon");
-        filterMap.put("/static/**","anon");
-
-        filterMap.put("/**","authc");
-        filterMap.put("/logout", "logout");*/
+         * 从数据库中取数据
+         **/
         //获取所有的权限资源
         List<Permission> permissions = permissionMapper.selectAllPermission();
         //做一个LinkedHashMap,因为这些键值对都是必须有顺序的，所以要用这个map
