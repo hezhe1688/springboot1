@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+    <!--当有add权限的时候，显示下面-->
+<div shiro:hasPermission="add">
     <a th:href="@{/add}">add</a>
+</div>
+    <!--当有update权限的时候，显示下面-->
+<div shiro:hasPermission="update">
     <a th:href="@{/update}">update</a>
+</div>
 </body>
 </html>

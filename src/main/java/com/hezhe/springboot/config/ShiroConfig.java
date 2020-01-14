@@ -1,5 +1,6 @@
 package com.hezhe.springboot.config;
 
+import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import com.hezhe.springboot.mapper.PermissionMapper;
 import com.hezhe.springboot.model.Permission;
 import com.hezhe.springboot.realm.UserRealm;
@@ -103,5 +104,11 @@ public class ShiroConfig {
         // 关联realm.
         securityManager.setRealm(userRealm(hashedCredentialsMatcher));
         return securityManager;
+    }
+
+    //整合ShiroDialect: 用shiro和thymeleaf
+    @Bean
+    public ShiroDialect shiroDialect(){
+        return new ShiroDialect();
     }
 }
